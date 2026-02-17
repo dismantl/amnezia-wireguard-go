@@ -12,11 +12,11 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"github.com/amnezia-vpn/amneziawg-go/conn"
-	"github.com/amnezia-vpn/amneziawg-go/device"
-	"github.com/amnezia-vpn/amneziawg-go/ipc"
+	"github.com/tailscale/wireguard-go/conn"
+	"github.com/tailscale/wireguard-go/device"
+	"github.com/tailscale/wireguard-go/ipc"
 
-	"github.com/amnezia-vpn/amneziawg-go/tun"
+	"github.com/tailscale/wireguard-go/tun"
 )
 
 const (

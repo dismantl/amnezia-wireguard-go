@@ -23,10 +23,10 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/amnezia-vpn/amneziawg-go/conn"
-	"github.com/amnezia-vpn/amneziawg-go/conn/bindtest"
-	"github.com/amnezia-vpn/amneziawg-go/tun"
-	"github.com/amnezia-vpn/amneziawg-go/tun/tuntest"
+	"github.com/tailscale/wireguard-go/conn"
+	"github.com/tailscale/wireguard-go/conn/bindtest"
+	"github.com/tailscale/wireguard-go/tun"
+	"github.com/tailscale/wireguard-go/tun/tuntest"
 )
 
 // uapiCfg returns a string that contains cfg formatted use with IpcSet.

@@ -12,7 +12,7 @@ import (
 	"net/netip"
 	"os"
 
-	"github.com/amnezia-vpn/amneziawg-go/conn"
+	"github.com/tailscale/wireguard-go/conn"
 )
 
 type ChannelBind struct {

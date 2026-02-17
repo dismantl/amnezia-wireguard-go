@@ -18,8 +18,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/amnezia-vpn/amneziawg-go/device/awg"
-	"github.com/amnezia-vpn/amneziawg-go/ipc"
+	"github.com/tailscale/wireguard-go/device/awg"
+	"github.com/tailscale/wireguard-go/ipc"
 )
 
 type IPCError struct {
